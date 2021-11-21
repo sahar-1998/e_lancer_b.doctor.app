@@ -49,7 +49,7 @@ class _LoginScreenState extends State<LoginScreen> {
       //   ),
       // ),
       body: ListView(
-        padding: const EdgeInsets.only(top: 65),
+        padding: const EdgeInsets.only(top: 50),
         children: [
           Stack(
             children: [
@@ -57,7 +57,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 'assets/h.png',
                 fit: BoxFit.cover,
                 width: double.infinity,
-                height: 300.h,
+                height: 300,
               ),
               Container(
                 padding: const EdgeInsets.only(
@@ -128,7 +128,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       // fillColor: kBlue,
                       // filled: true,
                       border: OutlineInputBorder(
-                        borderRadius: BorderRadius.circular(10.0.r),
+                        borderRadius: BorderRadius.circular(10.0),
                       ),
                       labelText: AppLocalizations.of(context)!.password
                     ),
@@ -136,25 +136,23 @@ class _LoginScreenState extends State<LoginScreen> {
                    SizedBox(
                     height: 20.h,
                   ),
-                  Container(
-                    child: ElevatedButton(
-                      style: ElevatedButton.styleFrom(
-                        minimumSize: const Size(double.infinity, 50),
-                        primary: mainColor1,
-                      ),
-                      onPressed: () {
-                        if (formKey.currentState!.validate()) {
-                          Navigator.pushReplacementNamed(
-                              context, '/home_screen');
-                        }
-                      },
-                      child:  Text(
-                        AppLocalizations.of(context)!.login,
-                        style: TextStyle(
-                          fontSize: 18.sp,
-                          fontWeight: FontWeight.bold,
-                          color: kWhite,
-                        ),
+                  ElevatedButton(
+                    style: ElevatedButton.styleFrom(
+                      minimumSize:  Size(double.infinity, 50),
+                      primary: mainColor1,
+                    ),
+                    onPressed: () {
+                      if (formKey.currentState!.validate()) {
+                        Navigator.pushReplacementNamed(
+                            context, '/home_screen');
+                      }
+                    },
+                    child:  Text(
+                      AppLocalizations.of(context)!.login,
+                      style: TextStyle(
+                        fontSize: 18,
+                        fontWeight: FontWeight.bold,
+                        color: kWhite,
                       ),
                     ),
                   ),

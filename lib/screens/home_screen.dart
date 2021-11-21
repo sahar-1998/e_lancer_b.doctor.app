@@ -61,10 +61,11 @@ class _HomeScreenState extends State<HomeScreen> {
         // child:
       ),
       floatingActionButton: FloatingActionButton(
+        backgroundColor: mainColor1,
         onPressed: () {
           Provider.of<LanguageProvider>(context,listen: false).changeLanguage();
         },
-        child: Icon(Icons.language),
+        child: Icon(Icons.language, color: kadd2,),
       ),
       body: GridView(
         padding: const EdgeInsets.only(top: 20),

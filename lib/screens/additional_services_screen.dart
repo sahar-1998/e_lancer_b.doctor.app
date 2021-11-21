@@ -24,7 +24,7 @@ class _AdditionalServicesScreenState extends State<AdditionalServicesScreen> {
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(50.r),
           ),
-          padding: const EdgeInsets.only(top: 10, right: 10),
+          padding: const EdgeInsets.only(top: 10, right: 0),
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [

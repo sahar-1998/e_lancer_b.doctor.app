@@ -1,0 +1,45 @@
+{
+  "skip": "skip",
+  "start": "START",
+  "welcometobdoctorapp": "Welcome to b.doctor app", 
+  "first": "Do you hesitate and need accurate medical and treatment advice?", 
+  "second": "Need to sit with a specialist doctor who diagnoses your condition and helps you with treatment?",
+  "third": "This application allows you to book your appropriate appointment with a specialist doctor at any time and from anywhere directly",
+  "welcomeback": "WELCOME BACK!",
+  "email": "Enter Your Email",
+  "password": "Enter Your Password",
+  "login": "LOGIN",
+  "besaftey": "BE SAFTEY",
+  "protectyourcountry": "PROTECT Your COUNTRY",
+  "washhandsthorough": "Wash hands thoroughly with soap and water",
+  "social": "Social distancing",
+  "stickto": "Stick to the stone when you come into contact with an infected",
+  "checkyour": "Check your temperature periodically",
+  "sticktowe": "Stick to wearing a mask",
+  "ontheandmouth": "Avoid placing your hand on the nose, eyes and mouth",
+  "welcome": "Welcome",
+  "appchoices": "APP CHOICES",
+  "bookappointment": "Book Appointment",
+  "seeappointment": "See Appointment",
+  "additionalservices": "Additional Services",
+  "aboutapp": "About App",
+  "fillthisinformation": "FILL THIS INFORMATION",
+  "name": "Name",
+  "age": "Age",
+  "choosethedate": "Choose the Date",
+  "choosethetime": "Choose the Time",
+  "save": "Save",
+  "reservatinlist": "Reservation List",
+  "welcomehere": "WELCOME Here",
+  "bapp": "B.DOCTOR.APP",
+
+
+
+
+
+
+
+
+
+  "update": "update"
+}

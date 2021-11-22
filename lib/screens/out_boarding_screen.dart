@@ -163,7 +163,7 @@ class _OutBoardingScreenState extends State<OutBoardingScreen> {
                   primary: mainColor1,
                 ),
                 onPressed: () =>
-                    Navigator.pushReplacementNamed(context, '/login_screen'),
+                    Navigator.pushReplacementNamed(context, '/home_screen'),
                 child:  Text(AppLocalizations.of(context)!.start, style:TextStyle(fontSize: 16.sp),),
               ),
             ),

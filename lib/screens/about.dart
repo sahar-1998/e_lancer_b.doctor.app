@@ -3,6 +3,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
+
 class About extends StatefulWidget {
   const About({Key? key}) : super(key: key);
 
@@ -72,13 +73,7 @@ class _AboutState extends State<About> {
           ),
           Container(
               padding: const EdgeInsets.only(left: 24, right: 24, top: 20),
-              child: Text(
-                'B.Doctor App e_Lacner Course'
-                    ', this App made by Sahar Essam AlTalaa'
-                    ', 21/November/2021, Supervised by: Eng.Momen SiSalem,'
-                    ' Skills used in this App: UI design'
-                    'Shared Preferences'
-                    ', Database , Statemanagement (provider), Localization. ',
+              child: Text('B.Doctor App e_Lacner Course, this App made by Sahar Essam AlTalaam, 21/November/2021, Supervised by: Eng.Momen SiSalem, Skills used in this App: UI design, Shared Preferences, Database , Statemanagement (provider), Localization.',
                 overflow: TextOverflow.ellipsis,
                 maxLines: 7,
                 style: TextStyle(

@@ -153,7 +153,7 @@ class _ContactScreenState extends State<ContactScreen> with Helpers {
         : await Provider.of<ContactProvider>(context, listen: false)
             .update(contact);
     if (status) clear();
-    String message = status ? 'Success' : 'Failed';
+    String message = status ? 'Reservation Done' : 'Failed to save';
     showSnackBar(context: context, message: message, error: !status);
   }
 

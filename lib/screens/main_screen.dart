@@ -86,12 +86,12 @@ class _MainScreenState extends State<MainScreen> with Helpers {
                 mainAxisSize: MainAxisSize.min,
                 children: [
                   Icon(
-                    Icons.warning,
+                    Icons.warning_amber_outlined,
                     size: 80,
                     color: Colors.grey.shade400,
                   ),
                   Text(
-                    'NO DATA',
+                    'NO Reservations Yet',
                     style: TextStyle(
                       color: Colors.grey.shade400,
                       fontSize: 22.sp,

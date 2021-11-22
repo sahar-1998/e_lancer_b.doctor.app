@@ -9,7 +9,6 @@ import 'package:b_doctor_app/screens/contact_screen.dart';
 import 'package:b_doctor_app/screens/create_contact_screen.dart';
 import 'package:b_doctor_app/screens/home_screen.dart';
 import 'package:b_doctor_app/screens/launch_screen.dart';
-import 'package:b_doctor_app/screens/login_screen.dart';
 import 'package:b_doctor_app/screens/main_screen.dart';
 import 'package:b_doctor_app/screens/out_boarding_screen.dart';
 import 'package:flutter/material.dart';
@@ -62,7 +61,7 @@ class MyAppMaterial extends StatelessWidget {
             routes: {
               '/launch_screen': (context) => LaunchScreen(),
               '/out_boarding_screen': (context) => OutBoardingScreen(),
-              '/login_screen': (context) => LoginScreen(),
+              // '/login_screen': (context) => LoginScreen(),
               '/home_screen' :(context) =>HomeScreen(),
               '/contact_screen':(context) =>ContactScreen(),
               '/main_screen': (context) => MainScreen(),

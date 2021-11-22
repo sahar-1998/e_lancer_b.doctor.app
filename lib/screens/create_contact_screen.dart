@@ -64,7 +64,7 @@ class _CreateContactScreenState extends State<CreateContactScreen>
            SizedBox(height: 10.h),
           AppTextField(
             textEditingController: _numberTextController,
-            hint: 'Number',
+            hint: 'Age',
             prefixIcon: Icons.phone_android,
           ),
            SizedBox(height: 15.h),
@@ -106,7 +106,7 @@ class _CreateContactScreenState extends State<CreateContactScreen>
     bool created = await Provider.of<ContactProvider>(context, listen: false)
         .create(contact);
     if (created) clear();
-    String message = created ? 'Created successfully' : 'Create failed';
+    String message = created ? 'Reservation done' : 'Failed';
     showSnackBar(context: context, message: message, error: !created);
   }
 

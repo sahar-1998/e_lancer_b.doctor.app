@@ -146,7 +146,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     width: 150.w,
                   ),
                   Text(
-                    AppLocalizations.of(context)!.aboutapp,
+                    AppLocalizations.of(context)!.additionalservices,
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       fontFamily: 'IndieFlower',
